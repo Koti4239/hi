@@ -1,0 +1,35 @@
+javaScripts dialog box
+i)alert
+2)prompt
+3)confirm
+alert:
+example:
+if(10<20){
+alert("10 less than 20");}
+prompt and  confirm:
+example:var woman=confirm("are you woman")
+if(woman){
+let name=prompt("please enter name")
+document.write("woman"+name)}
+else{
+let name=prompt("please enter your name")
+doucment.write("men"+name)}
+
+switch case:
+     example:<html>
+<title>ram</title>
+<script>
+
+let name=prompt("please enter name")
+let marks=prompt("please enter marks")
+switch(true){
+case marks>85 && marks<=90:
+     result="great are your topper"
+break;
+default:
+     result="hi"
+
+}
+document.write(name+result+marks)
+  </script>
+  </html>
